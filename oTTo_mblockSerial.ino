@@ -1,10 +1,9 @@
 //----------------------------------------------------------------
 //
-//Otto firmware for using with mBlock Software in Scratch Mode via USBSerial Cable (Programm run in Scratch Software and control the Otto, this will very fast and fun)
-//Mixed from OttoDIY 
-//Please refer to Makeblock (mblock.cc) for more detail about Scratch and mBlock
+// Otto firmware for using with mBlock Software in Scratch Mode via USBSerial Cable
+// 
+// Please refer to Makeblock (mblock.cc) for more detail about Scratch and mBlock
 //
-//Suitable for kids from 5-15 years old - Enjoy 
 // Please connect USB cable to Otto, choose right SerialPort and Enjoy
 //-----------------------------------------------------------------
 
@@ -34,9 +33,6 @@ Otto Vbot;  //my name is Vbot! Hello World!
 #define HIP_R   3        // Connect Servo Hip right to D3
 #define FOOT_R  5        // COnnect Servo Foot Right to D5
 
-
-
-
 //---------------------------------------------------------
 
 
@@ -45,9 +41,8 @@ Otto Vbot;  //my name is Vbot! Hello World!
 //-- Global Variables -------------------------------------------//
 ///////////////////////////////////////////////////////////////////
 const char programID[]="Otto_mBlock";
-//const char programID[]="Zowi_Vbot"; //Each program will have a ID
 
-const char name_fac='$'; //Factory name
+const char name_fac='$'; 
 const char name_fir='#'; 
 
 //-- Movement parameters
